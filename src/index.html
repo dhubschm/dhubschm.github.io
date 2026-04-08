@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominic | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homepage.css">
+  </head>
+  <body>
+
+    <nav>
+      <div>Portfolio</div>
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="subtitle">
+      <div class="subtitle-inner">
+        <div class="subtitle-text">
+          <h1>Hi, I'm Dominic</h1>
+          <p>Second-Year Computer Science & Engineering student at UC Irvine<br>
+          Passionate about Embedded Systems, Software Design, and Full Stack Applications</p>
+        </div>
+        <img src="../images/dom_image.jpg" alt="photo_of_Dominic" class="profile-img">
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="sub_section"><p>Click to learn more</p></div>
+      <div class="accordion">
+
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <div class="accordion-btn">ViewFinder</div>
+          <div class="accordion-content">
+            <p>Embedded star-tracking system using gyro-based orientation and Edge Impulse voice control.</p>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn" onclick="toggleAccordion(this)">MediCheck</button>
+          <div class="accordion-content">
+            <p>AI-powered web app for medication verification. 2nd place at WebJam.</p>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-btn" onclick="toggleAccordion(this)">Debbie</button>
+          <div class="accordion-content">
+            <p>1lb vertical-spinner combat robot built with Anteater Combat Engineering.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills + Coursework</h2>
+      <div class="card-grid">
+        <div class="card"><p>C++ / Python / JavaScript</p></div>
+        <div class="card"><p>React / Node.js / Express</p></div>
+        <div class="card"><p>ESP32 / Arduino / PCB Design</p></div>
+        <div class="card"><p>SQL / Git / Linux</p></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="sub_section">
+      <p>If you want to learn a little more about me, please contact me! I am open to opportunites to collaborate or chat.</p>
+      <a href="mailto:dhubschm@uci.edu">Email</a>
+      <a href="https://github.com/dhubschm">GitHub</a>
+      <a href="https://linkedin.com/in/dominichubschmitt/">LinkedIn</a>
+      </div>
+    </section>
+
+  </body>
+  <script src="homepage.js"></script>
+</html>
