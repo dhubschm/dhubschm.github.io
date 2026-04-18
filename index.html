@@ -23,8 +23,9 @@
       <div class="subtitle-inner">
         <div class="subtitle-text">
           <h1>Hi, I'm Dominic</h1>
-          <p>Second-Year Computer Science & Engineering student at UC Irvine<br>
-          Passionate about Embedded Systems, Software Design, and Full Stack Applications</p>
+          <p>I'm a Second-Year Computer Science & Engineering student at UC Irvine and <br>
+          passionate about Embedded Systems, Software Design, and Full Stack Applications. <br>
+          I am currently based in Southern California but I am open to opportunites anywhere!</p>
         </div>
         <img src="/images/dom_image.jpg" alt="photo_of_Dominic" class="profile-img">
       </div>
@@ -32,29 +33,37 @@
 
     <section id="projects">
       <h2>Projects</h2>
-      <div class="sub_section"><p>Click to learn more</p></div>
+      <div class="sub_section"><p>Click cards to learn more</p></div>
       <div class="accordion">
 
         <div class="accordion-item" onclick="toggleAccordion(this)">
-          <div class="accordion-btn">ViewFinder</div>
+          <div class="accordion-btn">ViewFinder - Embedded Systems Star Map Project</div>
           <div class="accordion-content">
-            <p>Embedded star-tracking system using gyro-based orientation and Edge Impulse voice control.</p>
-            <a href="#">GitHub</a>
+            <p>Embedded systems star map project utilizing the Arduino Uno Q. Via the external Modulino Movement
+              gyroscope + accelerometer, allows users to physically interact and learn more about the cosmos. 
+              <br> <br>Built over the 36 hour IrvineHacks2026 Hackthon time period.
+            </p>
+            <a href="https://github.com/colindamon/viewfinder" target="_blank">GitHub</a> <span> | </span>
+            <a href="https://devpost.com/software/viewfinder-vhn7at" target="_blank">Devpost</a>
           </div>
         </div>
 
-        <div class="accordion-item">
-          <button class="accordion-btn" onclick="toggleAccordion(this)">MediCheck</button>
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <div class="accordion-btn">MediCheck - AI-Integrated Bill Discrepancy Detector</div>
           <div class="accordion-content">
-            <p>AI-powered web app for medication verification. 2nd place at WebJam.</p>
-            <a href="#">GitHub</a>
+            <p>AI-powered web app for detecting errors in medical bills. Utilizing Gemini API, highlighted potential errors in bills, assigned a certainty score, and drafted an email to be sent to medical providers.<br> <br>2nd place overall winner at UCI campus wide hackathon - WebJam 2025.</p>
+            <a href="https://github.com/ak-singh2/webjam2025" target="_blank">GitHub</a> <span> | </span>
+            <a href="https://devpost.com/software/medicheck-4sbd0i" target="_blank">Devpost</a>
           </div>
         </div>
 
-        <div class="accordion-item">
-          <button class="accordion-btn" onclick="toggleAccordion(this)">Debbie</button>
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <div class="accordion-btn">Debbie - 1 Pound "Antweight" PLA Combat Robot</div>
           <div class="accordion-content">
-            <p>1lb vertical-spinner combat robot built with Anteater Combat Engineering.</p>
+            <p>1 pound PLA Filament vertical-spinner combat robot built in collaboration with Anteater Combat Engineering @ UCI. Designed
+              over two quarters and competed at the UCI Antweight Assault Competition, going head to head against teams from campuses
+              throughout Southern California.
+            </p>
             <a href="#">Learn More</a>
           </div>
         </div>
@@ -65,7 +74,7 @@
     <section id="skills">
       <h2>Skills + Coursework</h2>
       <div class="card-grid">
-        <div class="card"><p>C++ / Python / JavaScript</p></div>
+        <div class="card">C/C++</div><div class="card">Python</div><div class="card"><p>JavaScript</p></div>
         <div class="card"><p>React / Node.js / Express</p></div>
         <div class="card"><p>ESP32 / Arduino / PCB Design</p></div>
         <div class="card"><p>SQL / Git / Linux</p></div>
